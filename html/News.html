@@ -22,19 +22,6 @@
     <link rel="stylesheet" href="../css/MedieResize.css">
     <link rel="icon" type="image/x-icon" href="../bilder/rumbleLogo.png">
 
-    <style>
-        iframe {
-            width: 100%;
-            height: 600px;
-        }
-
-        @media (min-width: 1920px) {
-            .collapse-xl li {
-                padding: 0 30px;
-            }
-        }
-    </style>
-
 </head>
 
 <body>
@@ -55,7 +42,16 @@
                     <div class="collapse navbar-collapse collapse-xl" id="collapsibleNavbar">
                         <ul class="navbar-nav mx-auto ">
                             <li class="nav-item"><a class="nav-link" href="Startseite.html">Startseite</a></li>
-                            <li class="nav-item"><a class="nav-link" href="Uebersicht.html">Das Spiel</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Das Spiel
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="Uebersicht.html">Übersicht</a>
+                                    <a class="dropdown-item" href="#">News</a>
+                                </div>
+                            </li>
                             <li class="nav-item"><a class="nav-link" href="Grundlagen.html">Grundlagen</a></li>
                             <li class="nav-item"><a class="nav-link" href="Helden.html">Helden</a></li>
                             <li class="nav-item"><a class="nav-link" href="Einheiten.html">Einheiten</a></li>
@@ -73,18 +69,48 @@
 
         </div> <!-- 1. Reihe - Ende -->
 
-        
+
         <div class="row mb-2"> <!-- 2. Reihe - HAUPTTEIL - beginnt hier-->
 
             <div class="col-md-2 height-100vh" id="side">
                 <div class="sidebar mt-2" id="banner2">
                 </div>
             </div>
+
             <div class="col-md-8 main-color">
-                <div id="heldenContainer">
-                    <iframe src="../xml/WarcraftRumble.xml" frameborder="0"></iframe>
+
+                <div class="text-center">
+                    <img src="../bilder/update.png" alt="Update Logo">
                 </div>
+                <div class="font-size-22 w-50 p-5 ml-5">
+                    <p >
+                        Ab dem 29. Mai könnt ihr gemeinsam mit euren Gildenmitgliedern gegen General Marcus Jonathan an
+                        den Toren von Sturmwind antreten,
+                        Gastwirtin Allison in der Güldenen Rose herausfordern und Hochlord Bolvar Fordragon in Burg
+                        Sturmwind bezwingen.
+                    </p>
+                    <hr class="mb-4">
+                    <h5>Belagerungsbosse: 3</h5> 
+                    <h5>Siegel erforderlich: 90</h5> 
+                    <h5>Höchststufe: 22</h5> 
+                    <h5>Mindeststufe: </h5>
+                    <ul class="mb-4">
+                        <li><h5>General Marcus Jonathan: </h5>17-18</li>
+                        <li><h5>Gastwirtin Allison: </h5>18-19</li>
+                        <li><h5>Hochlord Bolvar Fordragon: </h5>19-20</li>
+                    </ul>
+                    <hr>
+                    <h2 class="mt-4">Belohnung:</h2>
+                    <h3 class="my-3 text-center">Jokerplatz</h3>
+                    <p>
+                        Der Jokerplatz wirkt sich auf den dritten Armeeplatz eines Anführers aus. Eine beliebige Mini kann hier platziert werden, um ihr zusätzliche Stufen zu verleihen.
+                    </p>
+                </div>
+            
             </div>
+
+
+
             <div class="col-md-2 height-100vh" id="side">
                 <div class="sidebar mt-2" id="banner">
                 </div>

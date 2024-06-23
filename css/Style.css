@@ -4,6 +4,10 @@ html {
     font-family: 'Comic Sans MS';
 }
 
+hr {
+    border-color: white;
+}
+
 .btn-transparent:focus {
     outline: none;
     box-shadow: none;
@@ -98,10 +102,6 @@ html {
 
 .hover-bild:hover {
     border: 5px solid white !important;
-}
-
-.hr {
-    border-color: white;
 }
 
 .main-color {
