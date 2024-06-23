@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/aRumble.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/aRumble.xsd"
+    xmlns:mstns="http://tempuri.org/aRumble.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+	<xs:element name="Helden">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Held" type="HeldTyp" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="HeldTyp">
+		<xs:sequence>
+			<xs:element name="Namen" type="xs:string" maxOccurs="1"/>
+			<xs:element name="Fraktion" type="FraktionTyp" maxOccurs="1"/>
+			<xs:element name="Kosten" type="KostenTyp" maxOccurs="1"/>
+			<xs:element name="Angriffstempo" type="AngTempTyp" maxOccurs="1"/>
+			<xs:element name="Tempo" type="TempoTyp" maxOccurs="1"/>
+			<xs:element name="Eigenschaften" type="EigenschaftenTyp" maxOccurs="10"/>
+			<xs:element name="Werte" type="WerteTyp" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="FraktionTyp">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Allianz"/>
+			<xs:enumeration value="Horde"/>
+			<xs:enumeration value="Untote"/>
+			<xs:enumeration value="Wildtiere"/>
+			<xs:enumeration value="Schwarzfels"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="KostenTyp">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="AngTempTyp">
+		<xs:restriction base="xs:float">
+			<xs:minInclusive value="0.1"/>
+			<xs:maxInclusive value="10.0"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="TempoTyp">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Langsam"/>
+			<xs:enumeration value="Mittel"/>
+			<xs:enumeration value="Schnell"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="EigenschaftenTyp">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Absitzen"/>
+			<xs:enumeration value="Belagerungsschaden"/>
+			<xs:enumeration value="Betäubungsangriff"/>
+			<xs:enumeration value="Bombardement"/>
+			<xs:enumeration value="Einzelziel"/>
+			<xs:enumeration value="Elementar"/>
+			<xs:enumeration value="Fernkampf"/>
+			<xs:enumeration value="Flug"/>
+			<xs:enumeration value="Flächenschaden"/>
+			<xs:enumeration value="Frost"/>
+			<xs:enumeration value="Gepanzert"/>
+			<xs:enumeration value="Heiler"/>
+			<xs:enumeration value="Kampfrausch"/>
+			<xs:enumeration value="Nahkampf"/>
+			<xs:enumeration value="Prozentualer Schden"/>
+			<xs:enumeration value="Schnell"/>
+			<xs:enumeration value="Tank"/>
+			<xs:enumeration value="Ungebunden"/>
+			<xs:enumeration value="Verstohlenheit"/>
+			<xs:enumeration value="Widerstand"/>
+			<xs:enumeration value="Wurzelangriff"/>
+			<xs:enumeration value="Zyklus"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="WerteTyp">
+		<xs:sequence>
+			<xs:element name="Level" type="LevelTyp" maxOccurs="1"/>
+			<xs:element name="Schaden" type="SchadenTyp" maxOccurs="1"/>
+			<xs:element name="SchadenProSekunde" type="SchadSecTyp" maxOccurs="1"/>
+			<xs:element name="Leben" type="LebenTyp" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="LevelTyp">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="SchadenTyp">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="5000"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="SchadSecTyp">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="3500"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:simpleType name="LebenTyp">
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="50000"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

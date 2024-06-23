@@ -1,0 +1,108 @@
+@media (min-width: 1920px) {
+
+    p {
+        font-size: larger;
+        padding: 20px;
+    }
+
+    .card-size {
+        height: 800px;
+    }
+
+    .card-img-size {
+        height: 55%;
+    }
+
+    .card-title {
+        padding-bottom: 20px;
+    }
+
+    .carousel-item img {
+        width: 35%;
+    }
+
+    .dungeon-pics>img {
+        padding: 0 20px 20px 40px;
+        height: 600px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 280px 280px;
+        gap: 10px;
+        margin: 20px 150px;
+        border: 15px ridge sienna;
+        background-color: rgb(84, 50, 24);
+    }
+
+    .height-600 {
+        height: 700px;
+    }
+
+    .held{
+       margin-bottom:5px;
+    }
+
+    .held img{
+       margin-top:25px;
+    }
+
+    .margin-top {
+        margin-top: 50px;
+    }
+
+    .margin-top-bottom {
+        margin-bottom: 85px;
+        margin-top: 85px;
+    }
+
+    .margin-top-bottom-xl {
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+
+    .navbar-collapse li {
+        padding: 0 30px;
+    }
+
+    .padding-xl {
+        padding: 50px;
+        padding-left: 100px;
+    }
+
+    .video-gdl {
+        margin-left: 220px;
+        margin-top: -10px;
+        margin-right: 50px;
+        width: 500px;
+        height: 1000px;
+    }
+
+    .width-450 {
+        width: 650px;
+    }
+
+    #Allianz,
+    #Horde,
+    #Untote,
+    #Wildtiere,
+    #Schwarzfels {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    #footer {
+        margin-bottom:30px;
+    }
+
+    #heldenContainer {
+        height: 1200px;
+    }
+
+    #Kontaktformular>* {
+        padding: 10px;
+    }
+
+
+}

@@ -1,0 +1,124 @@
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px ridge sienna;
+    margin: 10px 0;
+}
+
+.content img {
+    height: 140px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 220px 220px;
+    gap: 10px;
+    margin: 20px 150px;
+    border: 15px ridge sienna;
+    background-color: rgb(84, 50, 24);
+}
+
+.held {
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 5px ridge sienna;
+}
+
+.held img {
+    max-height: 80%;
+    padding-top: 20px;
+
+}
+
+
+@keyframes colorChange {
+    0% {
+        background-color: rgb(84, 50, 24);
+
+    }
+
+    50% {
+        background-color: rgb(176, 186, 197);
+    }
+
+    100% {
+        background-color: rgb(255, 205, 5);
+    }
+}
+
+.content:nth-child(1) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(4) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(6) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(2) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(7) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(3) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(8) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+}
+
+.content:nth-child(5) {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+.held {
+    animation-name: colorChange;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}

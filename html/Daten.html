@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Modulprojekt Warcraft Rumble Seite Daten</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="icon" type="image/x-icon" href="../bilder/rumbleLogo.png">
+
+    <style>
+        iframe {
+            width: 100%;
+            height: 600px;
+        }
+
+        @media (min-width: 1920px) {
+            .collapse-xl li {
+                padding: 0 30px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid"><!-- Container beginnt hier-->
+
+
+        <div class="row"> <!-- 1. Reihe - NAVBAR - beginnt hier -->
+
+            <div class="col-md-12 font-size-24">
+
+                <nav class="navbar navbar-expand-md navbar-dark navbar-style my-2 ">
+                    <img src="../bilder/blizzardLogo.png" alt="Blizzard Logo" id="blizzardLogo">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse collapse-xl" id="collapsibleNavbar">
+                        <ul class="navbar-nav mx-auto ">
+                            <li class="nav-item"><a class="nav-link" href="Startseite.html">Startseite</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Uebersicht.html">Übersicht</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Grundlagen.html">Grundlagen</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Helden.html">Helden</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Einheiten.html">Einheiten</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Spielablauf.html">Spielablauf</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Dungeons.html">Dungeons</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Bilder.html">Bilder</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Daten</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Kontakt.html">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <img src="../bilder/rumbleLogo.png" alt="Rumble Logo" id="rumbleLogo">
+                </nav>
+
+            </div>
+
+        </div> <!-- 1. Reihe - Ende -->
+
+        
+        <div class="row mb-2"> <!-- 2. Reihe - HAUPTTEIL - beginnt hier-->
+
+            <div class="col-md-2 height-100vh" id="side">
+                <div class="sidebar mt-2" id="banner2">
+                </div>
+            </div>
+            <div class="col-md-8 main-color">
+                <div id="heldenContainer">
+                    <iframe src="../xml/WarcraftRumble.xml" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-2 height-100vh" id="side">
+                <div class="sidebar mt-2" id="banner">
+                </div>
+            </div>
+
+        </div> <!-- 2. Reihe - Ende -->
+
+
+        <div class="row"> <!-- 3. Reihe - FOOTER - beginnt hier-->
+            <div class="col-md-12 d-flex" id="footer">
+                <p class="m-auto">©2024 Modulprojekt Roman Gutmann. BiTec 10/11 2023.</p>
+            </div>
+        </div> <!-- 3. Reihe - Ende -->
+
+
+    </div><!-- Container Ende -->
+
+    <script src="../js/banner.js"></script>
+
+</body>
+
+</html>

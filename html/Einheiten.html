@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <title>Modulprojekt Warcraft Rumble Seite Einheiten</title>
+
+        <link rel="stylesheet" href="../css/Style.css">
+        <link rel="icon" type="image/x-icon" href="../bilder/rumbleLogo.png">
+
+        <script src="../js/einheiten.js"></script>
+
+        <style>
+                @media (min-width: 1920px) {
+                        .collapse-xl li {
+                                padding: 0 30px;
+                        }
+                }
+        </style>
+
+</head>
+
+<body>
+
+        <div class="container-fluid"><!-- Container beginnt hier-->
+
+
+                <div class="row"> <!-- 1. Reihe - NAVBAR - beginnt hier -->
+
+                        <div class="col-md-12 font-size-24">
+                                <nav class="navbar navbar-expand-md navbar-dark navbar-style my-2 ">
+                                        <img src="../bilder/blizzardLogo.png" alt="Blizzard Logo" id="blizzardLogo">
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                                data-target="#collapsibleNavbar">
+                                                <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse collapse-xl" id="collapsibleNavbar">
+                                                <ul class="navbar-nav mx-auto ">
+                                                        <li class="nav-item">
+                                                                <a class="nav-link"
+                                                                        href="Startseite.html">Startseite</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Uebersicht.html">Übersicht</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link"
+                                                                        href="Grundlagen.html">Grundlagen</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Helden.html">Helden</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="#">Einheiten</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link"
+                                                                        href="Spielablauf.html">Spielablauf</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Dungeons.html">Dungeons</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Bilder.html">Bilder</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Daten.html">Daten</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                                <a class="nav-link" href="Kontakt.html">Kontakt</a>
+                                                        </li>
+                                                </ul>
+                                        </div>
+                                        <img src="../bilder/rumbleLogo.png" alt="Rumble Logo" id="rumbleLogo">
+                                </nav>
+                        </div>
+
+                </div> <!-- 1. Reihe - Ende -->
+
+
+                <div class="row mb-2 "> <!-- 2. Reihe - HAUPTTEIL - beginnt hier-->
+
+                        <div class="col-md-2 height-100vh" id="side">
+                                <div class="sidebar mt-2" id="banner2">
+                                </div>
+                        </div>
+
+                        <div class="col-md-8 main-color ">
+                                <div class="text-center">
+                                        <h1 class="heading1 my-3 my-xl-5">EINHEITEN</h1>
+                                </div>
+                                <div class="row d-flex mx-auto justify-content-center ">
+
+                                        <div class="card card-size" style="width: 28rem;">
+                                                <h3 class="card-title text-center" id="changeTitle">Monstrosität</h3>
+                                                <div id="changeImg" class="card-img-einheiten p-3">
+                                                        <img src="../bilder/big/einheiten/Abomination.png">
+                                                </div>
+                                                <div class="card-body glow-white">
+
+                                                        <p class="card-text" id="changeText">
+                                                                Dieser Tank aus Fleisch und Stahl zieht Distanzkämpfer
+                                                                mit dem Haken heran und führt
+                                                                einen Spaltangriff aus.
+                                                        </p>
+                                                        <p class="card-text my-0" id="changeCost">Kosten: 6</p>
+                                                        <p class="card-text" id="changeTyp">Typ: Nahkampf</p>
+                                                </div>
+                                        </div>
+                                </div>
+
+                                <hr class="mt-xl-5">
+
+                                <div class="row mt-xl-5">
+                                        <div class=" col-xl-2 "></div>
+                                        <div class="col-md-12 col-xl-8 mb-5">
+                                                <a href="#changeTitle" onclick="changeCard('abomination');"><img
+                                                                src="../bilder/einheiten/Abomination.png"
+                                                                alt="Monstrosität in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('angryChickens');"><img
+                                                                src="../bilder/einheiten/AngryChickens.png"
+                                                                alt="Wütende Hühner in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('arcaneBlast');"><img
+                                                                src="../bilder/einheiten/ArcaneBlast.png"
+                                                                alt="Arkanschlag in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('saferPilot');"><img
+                                                                src="../bilder/einheiten/S.A.F.E.Pilot.png"
+                                                                alt="S.I.C.H.E.R.-Pilotin in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('banshee');"><img
+                                                                src="../bilder/einheiten/Banshee.png"
+                                                                alt="Banshee in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('batRider');"><img
+                                                                src="../bilder/einheiten/BatRider.png"
+                                                                alt="Fledermausreiter in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('blizzard');"><img
+                                                                src="../bilder/einheiten/Blizzard.png"
+                                                                alt="Blizzard in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('chainLightning');"><img
+                                                                src="../bilder/einheiten/ChainLightning.png"
+                                                                alt="Kettenblitz in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('cheatDeath');"><img
+                                                                src="../bilder/einheiten/CheatDeath.png"
+                                                                alt="Todschummeln in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('coreHounds');"><img
+                                                                src="../bilder/einheiten/CoreHounds.png"
+                                                                alt="Kernhunde in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('darkIronMiner');"><img
+                                                                src="../bilder/einheiten/DarkIronMiner.png"
+                                                                alt="Dunkeleisenminer in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('darkspearTroll');"><img
+                                                                src="../bilder/einheiten/DarkspearTroll.png"
+                                                                alt="Dunkelspeertroll in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('defiasBandits');"><img
+                                                                src="../bilder/einheiten/DefiasBandits.png"
+                                                                alt="Defiasbanditen in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('drake');"><img
+                                                                src="../bilder/einheiten/Drake.png"
+                                                                alt="Drache in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('earthElemental');"><img
+                                                                src="../bilder/einheiten/EarthElemental.png"
+                                                                alt="Erdelementar in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('execute');"><img
+                                                                src="../bilder/einheiten/Execute.png"
+                                                                alt="Exekutieren in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('fireElemental');"><img
+                                                                src="../bilder/einheiten/FireElemental.png"
+                                                                alt="Feuerelementar in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('firehammer');"><img
+                                                                src="../bilder/einheiten/Firehammer.png"
+                                                                alt="Feuerhammer in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('flamewaker');"><img
+                                                                src="../bilder/einheiten/Flamewaker.png"
+                                                                alt="Flammenschürer in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('footmen');"><img
+                                                                src="../bilder/einheiten/Footmen.png"
+                                                                alt="Fußsoldaten in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('gargoyle');"><img
+                                                                src="../bilder/einheiten/Gargoyle.png"
+                                                                alt="Wasserspeier in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('ghoul');"><img
+                                                                src="../bilder/einheiten/Ghoul.png"
+                                                                alt="Ghul in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('gnollBrute');"><img
+                                                                src="../bilder/einheiten/GnollBrute.png"
+                                                                alt="Gnollschläger in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('goblinSapper');"><img
+                                                                src="../bilder/einheiten/GoblinSapper.png"
+                                                                alt="Goblinsapper in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('gryphonRider');"><img
+                                                                src="../bilder/einheiten/GryphonRider.png"
+                                                                alt="Greifenreiter in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('harpy');"><img
+                                                                src="../bilder/einheiten/Harpy.png"
+                                                                alt="Harpyie in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('harvestGolem');"><img
+                                                                src="../bilder/einheiten/HarvestGolem.png"
+                                                                alt="Erntegolem in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('holyNova');"><img
+                                                                src="../bilder/einheiten/HolyNova.png"
+                                                                alt="Heilige Nova in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('huntress');"><img
+                                                                src="../bilder/einheiten/Huntress.png"
+                                                                alt="Jägerin in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('livingBomb');"><img
+                                                                src="../bilder/einheiten/LivingBomb.png"
+                                                                alt="Lebende Bombe in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('meatWagon');"><img
+                                                                src="../bilder/einheiten/MeatWagon.png"
+                                                                alt="Fleischwagen in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('moltenGiant');"><img
+                                                                src="../bilder/einheiten/MoltenGiant.png"
+                                                                alt="Geschmolzener Riese in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('mountaineer');"><img
+                                                                src="../bilder/einheiten/Mountaineer.png"
+                                                                alt="Bergsteiger in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('murlocTidehunters');"><img
+                                                                src="../bilder/einheiten/MurlocTidehunters.png"
+                                                                alt="Murloc-Gezeitenjäger in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('necromancer');"><img
+                                                                src="../bilder/einheiten/Necromancer.png"
+                                                                alt="Nekromant in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('ogreMage');"><img
+                                                                src="../bilder/einheiten/OgreMage.png"
+                                                                alt="Oger-Magier in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('plagueFarmer');"><img
+                                                                src="../bilder/einheiten/PlagueFarmer.png"
+                                                                alt="Seuchenbauer in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('polymorphSpell');"><img
+                                                                src="../bilder/einheiten/PolymorphSpell.png"
+                                                                alt="Polymorph in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('prowler');"><img
+                                                                src="../bilder/einheiten/Prowler.png"
+                                                                alt="Pirscher in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('pyromancer');"><img
+                                                                src="../bilder/einheiten/Pyromancer.png"
+                                                                alt="Pyromant in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('quilboar');"><img
+                                                                src="../bilder/einheiten/Quilboar.png"
+                                                                alt="Stacheleber in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('raptors');"><img
+                                                                src="../bilder/einheiten/Raptors.png"
+                                                                alt="Raptoren in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('saferPilot');"><img
+                                                                src="../bilder/einheiten/S.A.F.E.Pilot.png"
+                                                                alt="S.I.C.H.E.R.-Pilotin in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('shaman');"><img
+                                                                src="../bilder/einheiten/Shaman.png"
+                                                                alt="Schamane in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('skeletonParty');"><img
+                                                                src="../bilder/einheiten/SkeletonParty.png"
+                                                                alt="Skelettparty in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('skeletonWarrior');"><img
+                                                                src="../bilder/einheiten/SkeletonWarrior.png"
+                                                                alt="Skelettkrieger in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('smokeBombSpell');"><img
+                                                                src="../bilder/einheiten/SmokeBombSpell.png"
+                                                                alt="Rauchbombe in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('spiderlings');"><img
+                                                                src="../bilder/einheiten/Spiderlings.png"
+                                                                alt="Spinnen in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('stonehoofTauren');"><img
+                                                                src="../bilder/einheiten/StonehoofTauren.png"
+                                                                alt="Steinhoof-Tauren in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('vultures');"><img
+                                                                src="../bilder/einheiten/Vultures.png"
+                                                                alt="Geier in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('warsongGrunts');"><img
+                                                                src="../bilder/einheiten/WarsongGrunts.png"
+                                                                alt="Kriegsgesang-Schläger in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('warsongRaider');"><img
+                                                                src="../bilder/einheiten/WarsongRaider.png"
+                                                                alt="Kriegsgesang-Räuber in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('whelpEggs');"><img
+                                                                src="../bilder/einheiten/WhelpEggs.png"
+                                                                alt="Welpen-Eier in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+                                                <a href="#changeTitle" onclick="changeCard('worgen');"><img
+                                                                src="../bilder/einheiten/Worgen.png"
+                                                                alt="Worgen in Miniaturansicht"
+                                                                class="miniatur-ansicht"></a>
+
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="col-md-2 height-100vh" id="side">
+                                <div class="sidebar mt-2" id="banner">
+                                </div>
+                        </div>
+
+                </div> <!-- 2. Reihe - Ende -->
+
+
+                <div class="row"> <!-- 3. Reihe - FOOTER - beginnt hier-->
+
+                        <div class="col-md-12 d-flex" id="footer">
+                                <p class="m-auto">
+                                        ©2024 Modulprojekt Roman Gutmann. BiTec 10/11 2023.
+                                </p>
+                        </div>
+
+                </div> <!-- 3. Reihe - Ende -->
+
+
+        </div><!-- Container Ende -->
+
+        <script src="../js/banner.js"></script>
+
+</body>
+
+</html>
