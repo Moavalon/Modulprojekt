@@ -4,3 +4,4 @@ window.onload = function () {
     banner.innerHTML = `<img src="../bilder/banner/Banner${randomBanner}.png" alt="Banner der Seitenleiste" style="height:80vh;" class="img-fluid">`;
     banner2.innerHTML = `<img src="../bilder/banner/Banner${randomBanner2}.png" alt="Banner der Seitenleiste" style="height:80vh;" class="img-fluid">`;
 }
+// Diese Funktion ist für das Laden der Banner nach jedem Seitenaufruf zuständig. Die Bilder werden zufällig ausgewählt.

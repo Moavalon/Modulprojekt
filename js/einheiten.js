@@ -379,6 +379,8 @@ worgen: {
     text: 'Dieser verstohlene Räuber meuchelt Fernkampfeinheiten. Platziert ihn klug, um den Gegner empfindlich zu treffen!'
 },
 };
+// Die Einheiten werden als Objekte gespeichert. Die Funktion changeCard übernimmt die Werte einer ausgewählten Einheit,
+// um diese entsprechend in der HTML zu aktualisieren.
 
 function changeCard(einheit) {
         var einheitData = einheiten[einheit];

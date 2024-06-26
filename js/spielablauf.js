@@ -1,3 +1,6 @@
+// Dieses Script dient für eine kleine Änderung in der HTML um eine Einheit "hochzustufen".
+// Der Rahmen wird verändert, sobald genügend Sterne erworben wurden und auch Slots werden freigeschaltet.
+// Das maximum ist 25
 var lvl = 0;
         var endLvl = 3;
         function lvlUp() {

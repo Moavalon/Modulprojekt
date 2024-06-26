@@ -1,3 +1,5 @@
+// Die Funktion toggle ist zuständig, um den Text in der HTML zu ändern und gleichzeitig einen Rahmen über das jeweils aktive
+// Icon zu setzen. 
 function toggle(selected) {
 
     for (let i = 1; i <= 4; i++) {

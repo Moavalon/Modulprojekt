@@ -1,3 +1,5 @@
+// Der Inhalt der Inputfelder werden in Variablen gespeichert und dann im content mit Key/Value und Zeilenumbruch
+// dem Blob übergeben um nach klicken auf den Button einen Downloadlink anzuzeigen. Zusätzlich gibt es einen Spamschutz.
 function download() {
     var geschlecht = document.getElementById('Geschlecht').value;
     var vorname = document.getElementById('Vorname').value;
