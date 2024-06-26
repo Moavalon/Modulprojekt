@@ -89,8 +89,12 @@ hr {
     height: 90vh;
 }
 
+.height-500 {
+    height: 500px;
+}
+
 .height-600 {
-    height: 600px;
+    height: 620px;
 }
 
 .heroes-logos {
@@ -162,6 +166,10 @@ hr {
 
 .side-color {
     background-color: rgb(52, 83, 161);
+}
+
+.text-justify {
+    text-align: justify;
 }
 
 .top-banner {
