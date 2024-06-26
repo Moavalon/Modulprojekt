@@ -46,7 +46,7 @@ hr {
 }
 
 .c-creme {
-    color: rgb(233, 231, 231);
+    color: rgb(217, 217, 217);
 }
 
 .c-creme>img {
@@ -57,8 +57,8 @@ hr {
     background-color: rgb(52, 83, 161);
 }
 
-.dungeon-pics>img{
-    padding:10px;
+.dungeon-pics>img {
+    padding: 10px;
     height: 400px;
 }
 
@@ -129,7 +129,7 @@ hr {
 }
 
 .margin-x {
-    margin:0 150px;
+    margin: 0 150px;
 }
 
 .miniatur-ansicht {
@@ -175,7 +175,7 @@ hr {
 .top-banner {
     height: 350px;
     background-image: url('../bilder/big/warcraft-rumble-top.jpg');
-    background-size:cover;
+    background-size: cover;
 }
 
 .video-gdl {
@@ -215,7 +215,7 @@ hr {
 }
 
 #lvlButton {
-    border-radius:50%;
+    border-radius: 50%;
     height: 80px;
     width: 80px;
     background-color: rgb(143, 8, 8);
@@ -253,4 +253,3 @@ hr {
 #Spamschutz {
     width: 100px;
 }
-
