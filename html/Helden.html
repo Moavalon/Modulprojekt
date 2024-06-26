@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="../css/MedieResize.css">
     <link rel="icon" type="image/x-icon" href="../bilder/rumbleLogo.png">
 
+    <script src="../js/tooltip.js"></script>
+
 </head>
 
 <body>
@@ -34,7 +36,9 @@
 
             <div class="col-md-12 font-size-24">
                 <nav class="navbar navbar-expand-md navbar-dark navbar-style my-2 ">
-                    <img src="../bilder/blizzardLogo.png" alt="Blizzard Logo" id="blizzardLogo">
+                    <a href="https://www.blizzard.com/de-de/" target="_blank">
+                        <img src="../bilder/blizzardLogo.png" alt="Blizzard Logo" id="blizzardLogo">
+                    </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -73,7 +77,9 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="../bilder/rumbleLogo.png" alt="Rumble Logo" id="rumbleLogo">
+                    <a href="https://warcraftrumble.blizzard.com/de-de" target="_blank">
+                        <img src="../bilder/rumbleLogo.png" alt="Rumble Logo" id="rumbleLogo">
+                    </a>
                 </nav>
             </div>
 
@@ -111,30 +117,46 @@
                     <div class="card card-size ">
                         <img src="../bilder/big/TirionBig.png" class="card-img-top card-img-size" alt="Tirion Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Tirion Fordring</h5>
-                            <img src="../bilder/skills/gottesschild.png" alt="Gottesschild Logo" data-toggle="tooltip" title="Kurzzeitige Unverwundbarkeit"> Gottesschild<br>
-                            <img src="../bilder/skills/weihe.png" alt="Weihe Logo" data-toggle="tooltip" title="Flächenschaden am Boden"> Weihe<br>
-                            <img src="../bilder/skills/beim-licht.png" alt="Beim Licht Logo" data-toggle="tooltip" title="Heilt eine Einheit"> Beim Licht
+                            <h4 class="card-title text-center my-3 heading1">Tirion Fordring</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/gottesschild.png" alt="Gottesschild Logo"
+                                    data-toggle="tooltip" title="Kurzzeitige Unverwundbarkeit"> Gottesschild<br>
+                                <img src="../bilder/skills/weihe.png" alt="Weihe Logo" data-toggle="tooltip"
+                                    title="Flächenschaden am Boden"> Weihe<br>
+                                <img src="../bilder/skills/beim-licht.png" alt="Beim Licht Logo" data-toggle="tooltip"
+                                    title="Heilt eine Einheit"> Beim Licht
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/JainaBig.png" class="card-img-top card-img-size " alt="Jaina Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Jaina Prachtmeer</h5>
-                            <img src="../bilder/skills/blinzeln.png" alt="Blinzeln Logo" data-toggle="tooltip" title="Teleportiert sich regelmäßig weg"> Blinzeln<br>
-                            <img src="../bilder/skills/freizaubern.png" alt="Freizaubern Logo" data-toggle="tooltip" title="Zauber kosten Kurzzeitig 1 Gold weniger"> Freizaubern<br>
-                            <img src="../bilder/skills/hagel.png" alt="Hagel Logo" data-toggle="tooltip" title="Frostblitze explodieren und frieren Gegner ein"> Hagel
+                            <h4 class="card-title text-center my-3 heading1">Jaina Prachtmeer</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/blinzeln.png" alt="Blinzeln Logo" data-toggle="tooltip"
+                                    title="Teleportiert sich regelmäßig weg"> Blinzeln<br>
+                                <img src="../bilder/skills/freizaubern.png" alt="Freizaubern Logo" data-toggle="tooltip"
+                                    title="Zauber kosten Kurzzeitig 1 Gold weniger"> Freizaubern<br>
+                                <img src="../bilder/skills/hagel.png" alt="Hagel Logo" data-toggle="tooltip"
+                                    title="Frostblitze explodieren und frieren Gegner ein"> Hagel
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/MaievBig.png" class="card-img-top card-img-size" alt="Maiev Logo">
                         <div class="card-body glow-white ">
-                            <h5 class="card-title text-center my-3">Maiev Schattensang</h5>
-                            <img src="../bilder/skills/einhuellende-schatten.png" alt="Einhüllende Schatten Logo" data-toggle="tooltip" title="Verleiht Verstohlenheit">
-                            Einhüllende Schatten<br>
-                            <img src="../bilder/skills/schattenschritt.png" alt="Schattenschritt Logo" data-toggle="tooltip" title="Teleportiert sich zu einer Fernkampfeinheit">
-                            Schattenschritt<br>
-                            <img src="../bilder/skills/unerbittlich.png" alt="Unerbittlich Logo" data-toggle="tooltip" title="2s doppelter Schaden nach dem Vernichten eines Gegners"> Unerbittlich
+                            <h4 class="card-title text-center my-3 heading1">Maiev Schattensang</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/einhuellende-schatten.png" alt="Einhüllende Schatten Logo"
+                                    data-toggle="tooltip" title="Verleiht Verstohlenheit">
+                                Einhüllende Schatten<br>
+                                <img src="../bilder/skills/schattenschritt.png" alt="Schattenschritt Logo"
+                                    data-toggle="tooltip" title="Teleportiert sich zu einer Fernkampfeinheit">
+                                Schattenschritt<br>
+                                <img src="../bilder/skills/unerbittlich.png" alt="Unerbittlich Logo"
+                                    data-toggle="tooltip"
+                                    title="2s doppelter Schaden nach dem Vernichten eines Gegners"> Unerbittlich
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -147,28 +169,47 @@
                     <div class="card card-size ">
                         <img src="../bilder/big/SneedBig.png" class="card-img-top card-img-size" alt="Sneed Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Sneed</h5>
-                            <img src="../bilder/skills/zeit-ist-geld.png" alt="Zeit ist Geld Logo" data-toggle="tooltip" title="Kann nun Gold abbauen"> Zeit ist Geld<br>
-                            <img src="../bilder/skills/extraglueck.png" alt="Extraglück Logo" data-toggle="tooltip" title="Chance auf 2 Gold mehr"> Extraglück<br>
-                            <img src="../bilder/skills/aneignung.png" alt="Aneignung Logo" data-toggle="tooltip" title="Steigt um eine Stufe wenn eine Fähigkeit ausgelöst wird"> Aneignung
+                            <h4 class="card-title text-center my-3 heading1">Sneed</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/zeit-ist-geld.png" alt="Zeit ist Geld Logo"
+                                    data-toggle="tooltip" title="Kann nun Gold abbauen"> Zeit ist Geld<br>
+                                <img src="../bilder/skills/extraglueck.png" alt="Extraglück Logo" data-toggle="tooltip"
+                                    title="Chance auf 2 Gold mehr"> Extraglück<br>
+                                <img src="../bilder/skills/aneignung.png" alt="Aneignung Logo" data-toggle="tooltip"
+                                    title="Steigt um eine Stufe wenn eine Fähigkeit ausgelöst wird"> Aneignung
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
-                        <img src="../bilder/big/GrommashBig.png" class="card-img-top card-img-size " alt="Grommash Logo">
+                        <img src="../bilder/big/GrommashBig.png" class="card-img-top card-img-size "
+                            alt="Grommash Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Grommash Höllschrei</h5>
-                            <img src="../bilder/skills/klingensturm.png" alt="Klingensturm Logo" data-toggle="tooltip" title="Klingenwirbel fügt allen Gegnern in der nähe Schaden zu"> Klingensturm<br>
-                            <img src="../bilder/skills/spiegelbild.png" alt="Spiegelbild Logo" data-toggle="tooltip" title="Ruft zwei zerbrechliche Spiegelbilder herbei"> Spiegelbild<br>
-                            <img src="../bilder/skills/wilde-stoesse.png" alt="Wilde Stöße Logo" data-toggle="tooltip" title="Gegner unter 50% Leben erhalten doppelten Schaden"> Wilde Stöße
+                            <h4 class="card-title text-center my-3 heading1">Grommash Höllschrei</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/klingensturm.png" alt="Klingensturm Logo"
+                                    data-toggle="tooltip"
+                                    title="Klingenwirbel fügt allen Gegnern in der nähe Schaden zu"> Klingensturm<br>
+                                <img src="../bilder/skills/spiegelbild.png" alt="Spiegelbild Logo" data-toggle="tooltip"
+                                    title="Ruft zwei zerbrechliche Spiegelbilder herbei"> Spiegelbild<br>
+                                <img src="../bilder/skills/wilde-stoesse.png" alt="Wilde Stöße Logo"
+                                    data-toggle="tooltip" title="Gegner unter 50% Leben erhalten doppelten Schaden">
+                                Wilde Stöße
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/CairneBig.png" class="card-img-top card-img-size" alt="Cairne Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Cairne Bluthuf</h5>
-                            <img src="../bilder/skills/reinkarnation.png" alt="Reinkarnation Logo" data-toggle="tooltip" title="Wird mit 50% Leben einmal wiederbelebt"> Reinkarnation<br>
-                            <img src="../bilder/skills/ebenenlaeufer.png" alt="Ebenenläufer Logo" data-toggle="tooltip" title="50% erhöhtes Bewegungstempo"> Ebenenläufer<br>
-                            <img src="../bilder/skills/nachbeben.png" alt="Nachbeben Logo" data-toggle="tooltip" title="Nach dem Beben sind Gegner 5s lang benommen"> Nachbeben
+                            <h4 class="card-title text-center my-3 heading1">Cairne Bluthuf</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/reinkarnation.png" alt="Reinkarnation Logo"
+                                    data-toggle="tooltip" title="Wird mit 50% Leben einmal wiederbelebt">
+                                Reinkarnation<br>
+                                <img src="../bilder/skills/ebenenlaeufer.png" alt="Ebenenläufer Logo"
+                                    data-toggle="tooltip" title="50% erhöhtes Bewegungstempo"> Ebenenläufer<br>
+                                <img src="../bilder/skills/nachbeben.png" alt="Nachbeben Logo" data-toggle="tooltip"
+                                    title="Nach dem Beben sind Gegner 5s lang benommen"> Nachbeben
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,33 +220,52 @@
                 </div>
                 <div class="d-flex justify-content-around mb-5">
                     <div class="card card-size ">
-                        <img src="../bilder/big/BaronRivendareBig.png" class="card-img-top card-img-size" alt="Baron Logo">
+                        <img src="../bilder/big/BaronRivendareBig.png" class="card-img-top card-img-size"
+                            alt="Baron Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Baron Totenschwur</h5>
-                            <img src="../bilder/skills/todespakt.png" alt="Todespakt Logo" data-toggle="tooltip" title="Opfert Skelette um sich zu heilen"> Todespakt<br>
-                            <img src="../bilder/skills/skelettraserei.png" alt="Skelettraserei Logo" data-toggle="tooltip" title="Skelette in der Nähe erhalten Kampfrausch"> Skelettraserei<br>
-                            <img src="../bilder/skills/grabeskaelte.png" alt="Grabeskälte Logo" data-toggle="tooltip" title="Skelettkrieger werden zu Magier"> Grabeskälte
+                            <h4 class="card-title text-center my-3 heading1">Baron Totenschwur</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/todespakt.png" alt="Todespakt Logo" data-toggle="tooltip"
+                                    title="Opfert Skelette um sich zu heilen"> Todespakt<br>
+                                <img src="../bilder/skills/skelettraserei.png" alt="Skelettraserei Logo"
+                                    data-toggle="tooltip" title="Skelette in der Nähe erhalten Kampfrausch">
+                                Skelettraserei<br>
+                                <img src="../bilder/skills/grabeskaelte.png" alt="Grabeskälte Logo"
+                                    data-toggle="tooltip" title="Skelettkrieger werden zu Magier"> Grabeskälte
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
-                        <img src="../bilder/big/SylvanasBig.png" class="card-img-top card-img-size " alt="Sylvanas Logo">
+                        <img src="../bilder/big/SylvanasBig.png" class="card-img-top card-img-size "
+                            alt="Sylvanas Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Sylvanas Windläufer</h5>
-                            <img src="../bilder/skills/black_arrow.png" alt="Schwarzer Pfeil Logo" data-toggle="tooltip" title="Durchbort gegner in einer Linie"> Schwarzer Pfeil<br>
-                            <img src="../bilder/skills/banshees_wail.png" alt="Bansheeheulen Logo" data-toggle="tooltip" title="Betäubt nach dem Tod 3s lang Gegner">
-                            Bansheeheulen<br>
-                            <img src="../bilder/skills/forsaken_fury.png" alt="Furor der Verlassenen Logo" data-toggle="tooltip" title="Horde- und Untoten-Minis erhalten Furor"> Furor der
-                            Verlassenen
-                            </p>
+                            <h4 class="card-title text-center my-3 heading1">Sylvanas Windläufer</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/black_arrow.png" alt="Schwarzer Pfeil Logo"
+                                    data-toggle="tooltip" title="Durchbort gegner in einer Linie"> Schwarzer Pfeil<br>
+                                <img src="../bilder/skills/banshees_wail.png" alt="Bansheeheulen Logo"
+                                    data-toggle="tooltip" title="Betäubt nach dem Tod 3s lang Gegner">
+                                Bansheeheulen<br>
+                                <img src="../bilder/skills/forsaken_fury.png" alt="Furor der Verlassenen Logo"
+                                    data-toggle="tooltip" title="Horde- und Untoten-Minis erhalten Furor"> Furor der
+                                Verlassenen
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/ThalnosBig.png" class="card-img-top card-img-size" alt="Thalnos Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Blutmagier Thalnos</h5>
-                            <img src="../bilder/skills/dunkle-macht.png" alt="Dunkle Macht Logo" data-toggle="tooltip" title="5s +30% Angriffstempo nach dem Zaubern"> Dunkle Macht<br>
-                            <img src="../bilder/skills/blutsauger.png" alt="Blutsauger Logo" data-toggle="tooltip" title="Erhält Lebensraub"> Blutsauger<br>
-                            <img src="../bilder/skills/vorherrschaft.png" alt="Vorherrschaft Logo" data-toggle="tooltip" title="Zauber mit 4 Gold und mehr erhöhen den Helden um eine Stufe"> Vorherrschaft
+                            <h4 class="card-title text-center my-3 heading1">Blutmagier Thalnos</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/dunkle-macht.png" alt="Dunkle Macht Logo"
+                                    data-toggle="tooltip" title="5s +30% Angriffstempo nach dem Zaubern"> Dunkle
+                                Macht<br>
+                                <img src="../bilder/skills/blutsauger.png" alt="Blutsauger Logo" data-toggle="tooltip"
+                                    title="Erhält Lebensraub"> Blutsauger<br>
+                                <img src="../bilder/skills/vorherrschaft.png" alt="Vorherrschaft Logo"
+                                    data-toggle="tooltip"
+                                    title="Zauber mit 4 Gold und mehr erhöhen den Helden um eine Stufe"> Vorherrschaft
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,35 +276,52 @@
                 </div>
                 <div class="d-flex justify-content-around mb-5">
                     <div class="card card-size ">
-                        <img src="../bilder/big/OldMurkEyeBig.png" class="card-img-top card-img-size" alt="Trübauge Logo">
+                        <img src="../bilder/big/OldMurkEyeBig.png" class="card-img-top card-img-size"
+                            alt="Trübauge Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Trübauge der Alte</h5>
-                            <img src="../bilder/skills/speerspitze.png" alt="Speerspitze Logo" data-toggle="tooltip" title="Gezeitenjäger erscheinen neben dem Helden"> Speerspitze<br>
-                            <img src="../bilder/skills/marathon-der-murlocs.png" alt="Marathon der Murlocs Logo" data-toggle="tooltip" title="Marsch der Murlocs hält 5s länger">
-                            Marathon der Murlocs<br>
-                            <img src="../bilder/skills/zitteraale.png" alt="Zitteraale Logo" data-toggle="tooltip" title="Angriffe betäuben Gegner"> Zitteraale
+                            <h4 class="card-title text-center my-3 heading1">Trübauge der Alte</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/speerspitze.png" alt="Speerspitze Logo" data-toggle="tooltip"
+                                    title="Gezeitenjäger erscheinen neben dem Helden"> Speerspitze<br>
+                                <img src="../bilder/skills/marathon-der-murlocs.png" alt="Marathon der Murlocs Logo"
+                                    data-toggle="tooltip" title="Marsch der Murlocs hält 5s länger">
+                                Marathon der Murlocs<br>
+                                <img src="../bilder/skills/zitteraale.png" alt="Zitteraale Logo" data-toggle="tooltip"
+                                    title="Angriffe betäuben Gegner"> Zitteraale
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/HoggerBig.png" class="card-img-top card-img-size " alt="Hogger Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Hogger</h5>
-                            <img src="../bilder/skills/schweinshaxe.png" alt="Schweinshaxe Logo" data-toggle="tooltip" title="Nach jedem Ausspielen +10% mehr Leben"> Schweinshaxe<br>
-                            <img src="../bilder/skills/verdorbenes-fleisch.png" alt="Verdorbenes Fleisch Logo" data-toggle="tooltip" title="Erhält Giftschaden">
-                            Verdorbenes Fleisch<br>
-                            <img src="../bilder/skills/toedliche-raserei.png" alt="Tödliche Raserei Logo" data-toggle="tooltip" title="Beim Tod erhalten Wildtiere Kampfrausch"> Tödliche
-                            Raserei
-                            </p>
+                            <h4 class="card-title text-center my-3 heading1">Hogger</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/schweinshaxe.png" alt="Schweinshaxe Logo"
+                                    data-toggle="tooltip" title="Nach jedem Ausspielen +10% mehr Leben">
+                                Schweinshaxe<br>
+                                <img src="../bilder/skills/verdorbenes-fleisch.png" alt="Verdorbenes Fleisch Logo"
+                                    data-toggle="tooltip" title="Erhält Giftschaden">
+                                Verdorbenes Fleisch<br>
+                                <img src="../bilder/skills/toedliche-raserei.png" alt="Tödliche Raserei Logo"
+                                    data-toggle="tooltip" title="Beim Tod erhalten Wildtiere Kampfrausch"> Tödliche
+                                Raserei
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/CharlgaBig.png" class="card-img-top card-img-size" alt="Charlga Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Charlga Klingenflanke</h5>
-                            <img src="../bilder/skills/griffe-der-natur.png" alt="Griffe der Natur Logo" data-toggle="tooltip" title="Macht 2 zusätzliche Ziele bewegungsunfähig"> Griffe der
-                            Natur<br>
-                            <img src="../bilder/skills/hoehlennebel.png" alt="Höhlennebel Logo" data-toggle="tooltip" title="1 Gold weniger Einsatzkosten"> Höhlennebel<br>
-                            <img src="../bilder/skills/geisterpassage.png" alt="Geisterpassage Logo" data-toggle="tooltip" title="Einheiten ab 5 Gold haben eine Stufe mehr"> Geisterpassage
+                            <h4 class="card-title text-center my-3 heading1">Charlga Klingenflanke</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/griffe-der-natur.png" alt="Griffe der Natur Logo"
+                                    data-toggle="tooltip" title="Macht 2 zusätzliche Ziele bewegungsunfähig"> Griffe der
+                                Natur<br>
+                                <img src="../bilder/skills/hoehlennebel.png" alt="Höhlennebel Logo"
+                                    data-toggle="tooltip" title="1 Gold weniger Einsatzkosten"> Höhlennebel<br>
+                                <img src="../bilder/skills/geisterpassage.png" alt="Geisterpassage Logo"
+                                    data-toggle="tooltip" title="Einheiten ab 5 Gold haben eine Stufe mehr">
+                                Geisterpassage
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -257,34 +334,52 @@
                     <div class="card card-size ">
                         <img src="../bilder/big/RendBig.png" class="card-img-top card-img-size" alt="Rend Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Rend Schwarzfaust</h5>
-                            <img src="../bilder/skills/flammende-seele.png" alt="Flammende Seele Logo" data-toggle="tooltip" title="Beim Absitzen wird Gegner in der Nähe Schaden zugefügt"> Flammende
-                            Seele<br>
-                            <img src="../bilder/skills/schuppe-und-stahl.png" alt="Schuppe und Stahl Logo" data-toggle="tooltip" title="Erhält 'Widerstand' und 'Gepanzert'"> Schuppe und
-                            Stahl<br>
-                            <img src="../bilder/skills/zornbringer.png" alt="Zornbringer Logo" data-toggle="tooltip" title="Steigt beim ersten Schaden ab und der Drache kämpft mit"> Zornbringer
+                            <h4 class="card-title text-center my-3 heading1">Rend Schwarzfaust</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/flammende-seele.png" alt="Flammende Seele Logo"
+                                    data-toggle="tooltip"
+                                    title="Beim Absitzen wird Gegner in der Nähe Schaden zugefügt"> Flammende
+                                Seele<br>
+                                <img src="../bilder/skills/schuppe-und-stahl.png" alt="Schuppe und Stahl Logo"
+                                    data-toggle="tooltip" title="Erhält 'Widerstand' und 'Gepanzert'"> Schuppe und
+                                Stahl<br>
+                                <img src="../bilder/skills/zornbringer.png" alt="Zornbringer Logo" data-toggle="tooltip"
+                                    title="Steigt beim ersten Schaden ab und der Drache kämpft mit"> Zornbringer
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
-                        <img src="../bilder/big/Thaurissan.png" class="card-img-top card-img-size " alt="Imperator Logo">
+                        <img src="../bilder/big/Thaurissan.png" class="card-img-top card-img-size "
+                            alt="Imperator Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">Imperator Thaurissan</h5>
-                            <img src="../bilder/skills/moiras_wit.png" alt="Moiras Scharfsinn Logo" data-toggle="tooltip" title="Brennende Gegner heilen den Helden"> Moiras
-                            Scharfsinn<br>
-                            <img src="../bilder/skills/hubris.png" alt="Hybris Logo" data-toggle="tooltip" title="Der nächste Nicht-Elementarmini erhält +2 Stufen"> Hybris<br>
-                            <img src="../bilder/skills/incinerate.png" alt="Flammentod Logo" data-toggle="tooltip" title="Lavaausbruch verbrennt dauerhaft"> Flammentod
+                            <h4 class="card-title text-center my-3 heading1">Imperator Thaurissan</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/moiras_wit.png" alt="Moiras Scharfsinn Logo"
+                                    data-toggle="tooltip" title="Brennende Gegner heilen den Helden"> Moiras
+                                Scharfsinn<br>
+                                <img src="../bilder/skills/hubris.png" alt="Hybris Logo" data-toggle="tooltip"
+                                    title="Der nächste Nicht-Elementarmini erhält +2 Stufen"> Hybris<br>
+                                <img src="../bilder/skills/incinerate.png" alt="Flammentod Logo" data-toggle="tooltip"
+                                    title="Lavaausbruch verbrennt dauerhaft"> Flammentod
+                            </div>
                         </div>
                     </div>
                     <div class="card card-size ">
                         <img src="../bilder/big/Drakkisath.png" class="card-img-top card-img-size" alt="General Logo">
                         <div class="card-body glow-white">
-                            <h5 class="card-title text-center my-3">General Drakkisatz</h5>
-                            <img src="../bilder/skills/chromatische-schuppen.png" alt="Chromatische Schuppen Logo" data-toggle="tooltip" title="Verbündete erhalten 'Widerstand'">
-                            Chromatische Schuppen<br>
-                            <img src="../bilder/skills/durchbohrende-stoesse.png" alt="Durchbohrende Stöße Logo" data-toggle="tooltip" title="Angriffe durchbohren Gegner in einer Linie">
-                            Durchbohrende Stöße<br>
-                            <img src="../bilder/skills/bleibendes-vermaechtnis.png" alt="Bleibendes Vermächtnis Logo" data-toggle="tooltip" title="Beim Tod erleiden Gegner in der Nähe 10s lang 50% mehr Elementarschaden">
-                            Bleibendes Vermächtnis
+                            <h4 class="card-title text-center my-3 heading1">General Drakkisatz</h4>
+                            <div class="c-creme">
+                                <img src="../bilder/skills/chromatische-schuppen.png" alt="Chromatische Schuppen Logo"
+                                    data-toggle="tooltip" title="Verbündete erhalten 'Widerstand'">
+                                Chromatische Schuppen<br>
+                                <img src="../bilder/skills/durchbohrende-stoesse.png" alt="Durchbohrende Stöße Logo"
+                                    data-toggle="tooltip" title="Angriffe durchbohren Gegner in einer Linie">
+                                Durchbohrende Stöße<br>
+                                <img src="../bilder/skills/bleibendes-vermaechtnis.png"
+                                    alt="Bleibendes Vermächtnis Logo" data-toggle="tooltip"
+                                    title="Beim Tod erleiden Gegner in der Nähe 10s lang 50% mehr Elementarschaden">
+                                Bleibendes Vermächtnis
+                            </div>
                         </div>
                     </div>
                 </div>

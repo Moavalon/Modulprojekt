@@ -2,7 +2,6 @@
 
     p {
         font-size: larger;
-        padding: 20px;
     }
 
     .card-size {
@@ -36,16 +35,12 @@
         background-color: rgb(84, 50, 24);
     }
 
-    .height-600 {
-        height: 700px;
+    .held {
+        margin-bottom: 5px;
     }
 
-    .held{
-       margin-bottom:5px;
-    }
-
-    .held img{
-       margin-top:25px;
+    .held img {
+        margin-top: 25px;
     }
 
     .margin-top {
@@ -93,7 +88,7 @@
     }
 
     #footer {
-        margin-bottom:30px;
+        margin-bottom: 30px;
     }
 
     #heldenContainer {

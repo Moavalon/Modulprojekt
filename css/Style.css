@@ -50,6 +50,14 @@ hr {
     width: 50%;
 }
 
+.c-creme {
+    color: rgb(233, 231, 231);
+}
+
+.c-creme>img {
+    padding-bottom: 5px;
+}
+
 .container-fluid {
     background-color: rgb(52, 83, 161);
 }
@@ -119,6 +127,10 @@ hr {
 
 .margin-top {
     margin-top: 10px;
+}
+
+.margin-x {
+    margin:0 150px;
 }
 
 .miniatur-ansicht {

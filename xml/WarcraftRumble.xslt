@@ -9,13 +9,14 @@
 				<title>Helden</title>
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
 				<style>
-					.held {
-					display: none;
-					}
 					body {
 					background-color: transparent;
 					color: white;
+					font-size:22px;
 					}
+					.held {
+						display: none;
+						}
 					.container {
 					margin-top: 20px;
 					}
