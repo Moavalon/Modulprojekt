@@ -34,16 +34,11 @@ hr {
 }
 
 .card-img-size {
-    height: 300px;
-    max-width: 250px;
+    height: 55%;
 }
 
 .card-size {
     width: 20rem;
-}
-
-.card>img {
-    margin-left: 20px;
 }
 
 .carousel-item img {

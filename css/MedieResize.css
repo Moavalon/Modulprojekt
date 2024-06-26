@@ -9,9 +9,12 @@
     }
 
     .card-img-size {
-        height: 55%;
+        height: 60%;
     }
 
+    .card-size {
+        height: 900px;
+    }
     .card-title {
         padding-bottom: 20px;
     }
